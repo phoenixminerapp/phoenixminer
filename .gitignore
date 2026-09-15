@@ -1,0 +1,11 @@
+# This repo publishes releases only — never commit binaries or keys.
+*.tar.gz
+*.zip
+*-linux-x86_64
+*-windows-x64
+SHA256SUMS.txt
+
+# Keys / secrets that live in the parent workspace
+phoenix
+phoenix.pub
+*.pem
